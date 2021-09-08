@@ -1,0 +1,13 @@
+n,m = map(int, input().split())
+
+result = 0
+data1=[]
+
+for i in range(n):
+  data = list(map(int,input().split()))
+  data.sort()
+  min_value=data[0]
+  data1.append(data[0])
+
+data1.sort()
+result=print(data1[-1])
